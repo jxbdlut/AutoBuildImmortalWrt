@@ -41,6 +41,11 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 PACKAGES="$PACKAGES luci-app-wol"
 PACKAGES="$PACKAGES luci-proto-wireguard"
+PACKAGES="$PACKAGES iptables-nft"
+PACKAGES="$PACKAGES tcpdump"
+PACKAGES="$PACKAGES zsh"
+PACKAGES="$PACKAGES procps-ng-vmstat"
+
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
