@@ -104,4 +104,7 @@ FILE_PATH="/etc/openwrt_release"
 NEW_DESCRIPTION="Compiled by jxbdlut"
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
 
+# 更改默认shell为bash
+sed -i 's/\/bin\/ash$/\/bin\/bash/' /etc/passwd
+
 exit 0
